@@ -6,7 +6,7 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const ownervb = process.env.OWNERS || "254743706010"
+const ownervb = process.env.OWNERS || "18768375254"
 
 
 const ownerlist = ownervb.split(';');
@@ -73,7 +73,7 @@ global.botname = process.env.BOTNAME
 global.premium = 'true'
 global.packname = 'silva'
 global.author = 'silva'
-global.menuvid = ''
+global.menuvid = '.'
 global.igfg = ''
 global.dygp = ''
 global.fgsc = 'https://github.com/SilvaTechB/silva-md-bot'
